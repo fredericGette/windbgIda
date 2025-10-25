@@ -26,6 +26,10 @@ Start WinDbg, set a breakpoint and continue execution until this break point is 
 Run the _pykd_ extension:  
 ```!py```
 
+> [!TIP]
+> If you get the error `No export py found`:  
+> Type `.load pykd` first.
+
 Run the script _windbg_ida_bridge_client.py_:
 ```
 import runpy
